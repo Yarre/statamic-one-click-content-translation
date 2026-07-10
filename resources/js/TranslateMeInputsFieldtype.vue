@@ -12,7 +12,6 @@ export default {
     let translationNeeded = true;
 
     async function checkAndInit() {
-      return;
       const response = await isTranslateNeedRequest({
         url: window.location.pathname,
       });
